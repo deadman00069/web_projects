@@ -9,7 +9,7 @@ Technology used:
 Screenshots:
 * Login-page
 <img src="img/2git.PNG">
-
+<br>
 * Dashboard for admin
 <img src="img/git1.PNG">
 

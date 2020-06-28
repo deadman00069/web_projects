@@ -24,7 +24,7 @@ Screenshots:
 <br>
 
 * Student-details
-<img src="/img/5git.PNG">
+<img src="img/5git.PNG">
 <br>
 
 * Admission-form

@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.login-page-wrap{
+    background-image: url('./images/log_backimg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+.login-page-contant{
+   width: 100%;
+   height: 100%;
+   padding: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.login-box{
+    width: 470px;
+    height: 633px;  
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 49px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+.logo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.server-side-message{
+    display: flex;
+    flex-direction: row-reverse;
+    color: red;
+}
+.form-group{
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-group .form-control{
+    background-color: #f8f8f8;
+    font-size: 14px;
+    color: #111111;
+    border-radius: 4px;
+    height: 50px;
+    width: 100%;
+    padding: 5px 10px 5px 20px; 
+    background-color: transparent;
+    border: 1px solid #c2c2c2;
+    padding: 5px 35px 5px 20px;
+}
+ 
+
+label{
+    font-size:18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+.login-page-contant .login-box .login-form .form-group i {
+    position: absolute;
+    font-size: 15px;
+    color: #9f9f9f;
+    top: 73px;
+    left: 340px;
+}
+.login-page-contant .login-box .login-form .form-group pre{
+    text-align: center;
+}
+.login-page-contant .login-box .login-form .form-group .sign-up{
+    color: red;
+    text-decoration: none;
+}
+
+.f-pass {
+    text-decoration: none;
+    color: red;
+    padding-left: 220px;
+    }
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #083B68;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 600px){
+    .login-page-contant{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .login-box{
+        width: 100%;
+        padding: 10px;
+    }
+    label{
+        font-size:14px;
+        
+    }
+    .form-group .form-control{
+        font-size: 12px;
+        height: 50px;
+        width: 100%;
+        
+    }
+    .login-page-contant .login-box .login-form .form-group i {
+        top: 70px;
+        left: 270px;
+    }
+    .f-pass {
+        padding-left: 0px;
+        font-size: 14px;
+        padding-left: 170px;
+        }
+
+}

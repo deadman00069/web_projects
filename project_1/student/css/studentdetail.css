@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page-info{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+} 
+.page-info h3{
+    font-weight: 500;
+    padding-bottom: 8px;
+} 
+.page-info p{
+    font-size: 16px;
+    color: #FFA701;
+}
+.nav-menu .search-bar{
+    display: flex;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    
+}
+.nav-menu .search-bar input[type="text"]{
+    flex: 3;
+    margin-right: 20px;
+    height: 45px;
+    background-color:rgb(248, 248, 248);
+    border: none;
+    filter: drop-shadow(0px 0px 0px black);
+    border-radius: 4px;
+    padding-left:10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.nav-menu .search-bar input[type="submit"]{
+    flex: 1;
+    margin-right: 20px;
+    height: 45px;
+    border-radius: 4px;
+    color: white;
+    background-color: #FFA701;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.student-detail-wrap
+{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.student-detail-content-wrap{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+.student-detail-content{
+    display: flex;
+    margin-top: 70px;
+}
+.img{
+    font-size: 250px;
+    margin-right: 180px;
+}
+.student-detail-display{
+    border: none;
+    width: 300px;
+}
+.table th{
+    background-color:white;
+    border: none;
+    font-weight: normal;
+}
+.table td{
+    background-color: white;
+    border: none;
+}
+@media screen and (max-width:1020px){
+    .student-detail-content{
+    flex-direction: column;
+    align-items: center;
+    }
+    .img{
+        margin-right: 0;
+    }
+}

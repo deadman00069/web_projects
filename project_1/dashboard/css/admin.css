@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dashboard{
+    padding: 20px 20px 0 20px;
+}
+.page-info{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+} 
+.page-info h3{
+    font-weight: 500;
+    padding-bottom: 8px;
+} 
+.page-info p{
+    font-size: 16px;
+    color: #FFA701;
+}
+.cards{
+    padding: 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ .cards .card{
+    width: 380px;
+    min-width: 100px;
+    height: 129px;
+    filter: drop-shadow(0px 1px 1px black);
+    background-color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+ }
+ .cards .card .card1{
+     padding: 35px 20px 20px 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .cards .card .card1 i{
+    font-size: 50px;
+    color: #FFA701;
+}
+.cards .card .card1 .img{
+    width: 100px;
+}
+
+.cards .card .card1 .info{
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px 20px 0 0px;
+}
+.cards .card .card1 .info p{
+    padding-bottom: 10px;
+}
+.cards .card .card1 .info span{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* chart */
+.mychart{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+.chart-wrap-1{
+    flex:2;
+    width: 20%;
+    height: auto;
+    margin-right: 20px;
+    position: relative;
+    min-width: 0;
+    background-color: white;
+    border-radius: 4px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+.chart-wrap-2{
+    flex: 1;
+    align-items: stretch;
+    width: 20%;
+    height: auto;
+    margin: -10px 0;
+    position: relative;
+    min-width: 0;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+@media screen and (max-width:990px){
+    .cards{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .cards .card{
+    margin-bottom: 10px;
+    }
+    .mychart{
+        flex-direction: column;
+    }
+    .chart-wrap-1{
+        flex: 1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .chart-wrap-2{
+        flex: 1;
+        width: 100%;
+    }
+}
+@media screen and (max-width:860px){
+    .cards .card{
+        flex: 1 1 15em;
+        }
+
+}

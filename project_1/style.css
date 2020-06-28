@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Element | http://localhost/management/home.php */
+
+.logo > div:nth-child(1) > img:nth-child(1) {
+    height: 50px;
+  }
+  
+/* for logout */
+.logout-box{
+    display: none;
+}
+.logout-box{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    left: 600px;
+    top:200px;
+    background-color: #F0F1F3;
+    border-radius: 4px;
+    padding: 20px;
+    z-index: 1;
+    filter: drop-shadow(9px 9px 99px black);
+}
+.logout-box .logout-content p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+.logout-box .logout-content .logout-button{
+    padding: 20px;
+    display: flex;
+}
+.logout-box .logout-content .logout-button input{
+    background-color: #042954;
+    border: none;
+    flex: 1;
+    justify-content: space-between;
+    margin-right: 10px;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    min-height: 70px;
+    background-color: white;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    left: 0px;
+    background-color: #FFA701;
+    width: 260px;
+    height: 70px;
+    padding: 10px;
+}
+
+.nav-links{
+    width: 50%;
+    display: flex; 
+    align-items: center;
+    right: 0; 
+    position: absolute;
+    right: 0;
+    justify-content: end;
+    margin-bottom: 0;
+}
+.nav-links li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.nav-links .admin{
+    display: flex;
+    width: auto;
+}
+.nav-links .admin i{
+    font-size: 40px;
+    padding-left: 30px;
+}
+.nav-links .admin p{
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li i{
+    font-size: 18px;
+}
+
+.nav-link-drop{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 20px 30px 40px 20px;
+    display: none;
+}
+.nav-link-drop .admin-drop{
+    display: flex;
+    border-bottom: 1px solid #EEEAEA;
+}
+.nav-link-drop .admin-drop i{
+    font-size: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.nav-link-drop .admin-drop p{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #111111;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.nav-link-drop li{
+    list-style: none;
+  }
+
+.burger{
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+}
+.burger{
+    display: none;
+}
+.burger i{
+    font-size: 20px;
+    color: #444444;
+}
+#down{
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+/* for left menu */
+
+.left-menu{
+    width: 260px;
+    height: 1000px;
+    background-color:#042954;
+
+   
+}
+.left-menu .menu-items{
+    width: 260px;
+    height: 54px;
+    background-color:#042954;
+    filter: drop-shadow(0px 1px 1px black);
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    color: #859EB1;
+}
+.left-menu .menu-items a{
+    text-decoration: none;
+    color: #859EB1;
+}
+.left-menu .menu-items .arrow{
+    position: absolute;
+    padding-left: 150px;
+}
+.left-menu .drop-menu{
+    display: none;
+    background-color:#042954;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.left-menu .drop-menu .drop-items {
+    list-style: none;
+    width: 100%;
+    height: 39px;
+    padding-top: 8px;
+    padding-left: 80px;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+.left-menu .drop-menu .drop-items a{
+    text-decoration: none;
+    color: white;
+}
+
+/* container */
+.presentation {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    left: 260px;
+    bottom: auto;
+    background-color: #F0F1F3;
+  }
+
+
+@media screen and (max-width:768px){
+    .logo{
+        width: 200px;
+    }
+    .nav-links{
+        display: none;
+    }
+   .burger{
+       display: block;
+   }
+   .presentation{
+       left: 0;
+       z-index: -1;
+   }
+   .left-menu{
+       width: 200px;
+       display: none;
+   }
+   .left-menu li{
+       cursor: pointer;
+   }
+   .left-menu .menu-items{
+       width: 200px;
+   }
+   .left-menu .menu-items .arrow{
+       padding-left: 100px;
+   }
+
+    .left-menu .drop-menu .drop-items {
+        padding-left: 30px;
+  }
+  
+}
+
+
+

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-info{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+} 
+.page-info h3{
+    font-weight: 500;
+    padding-bottom: 8px;
+} 
+.page-info p{
+    font-size: 16px;
+    color: #FFA701;
+}
+.student-form-wrap{
+    
+    padding: 20px;
+}
+.student-form-content{
+    padding: 20px;
+    background-color: white;
+}
+.form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-inputs input[type="text"],[type="date"]{
+    margin-right: 20px;
+    height: 45px;
+    background-color:rgb(248, 248, 248);
+    border: none;
+    filter: drop-shadow(0px 0px 0px black);
+    border-radius: 4px;
+    padding-left:10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+.form-inputs input[type="submit"],input[type="reset"]{
+    margin-right: 20px;
+    padding: 10px;
+    height: auto;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    background-color: #FFA701;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+#sub{
+    background-color: #FFA701;
+}
+#reset{
+    background-color: #042954;
+}

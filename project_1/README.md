@@ -19,11 +19,11 @@ Screenshots:
 * All-students
 <img src="img/4git.PNG">
 
-*Student-details
+* Student-details
 <img src="/img/5git.PNG">
 
 * Admission-form
-<img src="/img/6git.PNG">
+<img src="img/6git.PNG">
 
 * Searching particular student using roll no
-<img src="/img/7git.PNG>
+<img src="img/7git.PNG">

@@ -1,1 +1,1 @@
-<img src="img/2git.png">
+<img src="img/2git.PNG">

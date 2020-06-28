@@ -10,6 +10,8 @@ Screenshots:
 * Login-page
 <img src="img/2git.PNG">
 
+
+
 * Dashboard for admin
 <img src="img/git1.PNG">
 

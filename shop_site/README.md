@@ -4,6 +4,7 @@ Technology used:
 *	CSS
 
 Short-note: its full responsive site
-<br>
+
+
 Screenshots:
 <img src="img/1.PNG">

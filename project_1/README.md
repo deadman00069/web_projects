@@ -12,18 +12,19 @@ Screenshots:
 <br>
 * Dashboard for admin
 <img src="img/git1.PNG">
-
+<br>
 * Sub-menu
 <img src="img/3git.PNG">
-
+<br>
 * All-students
 <img src="img/4git.PNG">
-
+<br>
 * Student-details
 <img src="/img/5git.PNG">
-
+<br>
 * Admission-form
 <img src="img/6git.PNG">
-
+<br>
 * Searching particular student using roll no
 <img src="img/7git.PNG">
+<br>

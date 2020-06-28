@@ -2,7 +2,7 @@
 Technology used:
 *	HTML
 *	CSS
-<br>
+
 Short-note: its full responsive site
 <br>
 Screenshots:

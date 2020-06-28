@@ -7,7 +7,5 @@ Technology used:
 *	JAVASCRIPT
 
 Screenshots:
-
+* Login-page
 <img src="img/2git.PNG">
-
-Login-page

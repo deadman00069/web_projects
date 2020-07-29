@@ -7,4 +7,4 @@ Short-note: its full responsive site
 
 
 Screenshots:
-<img src="img/1.PNG">
+<img src="img/img.PNG">
